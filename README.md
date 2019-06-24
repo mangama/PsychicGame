@@ -9,22 +9,22 @@ This project aims to create a computer game.
 
 Steps
 
-- Create a new GitHub repo called Psychic-Game.
+- Created a new GitHub repo called Psychic-Game.
 - Inside the local git repository, I created files according to the drawing below
 
-├── assets
+   ├── assets
 
-|  ├── css
+|       ├── css
 
-|  |  └── style.css
+|       |  └── style.css
 
-|  ├── images
+|       ├── images
 
-|  └── javascript
+|       └── javascript
 
-|     └── game.js
+|       |  └── game.js
 
-└── index.html
+    └── index.html
 
 - Made sure that the app randomly picks a letter, and the user has to guess which letter the app chose. 
 
@@ -39,7 +39,7 @@ Steps
     Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
 
     When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
-    
+
     When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
 
 
