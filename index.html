@@ -8,39 +8,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Guessing Game</title>
 </head>
 
 <body>
-    <header>
-        <h1>Psychic Game</h1>
-    </header>
 
     <div class="container">
-        <div>
-            <h3>Guess what letter I'm thinking of: </h3>
-        </div>
-        <div>
-            <h3>Wins: <span id="winsCount"></span></h3>
-            <h3>Losses: <span id="lossesCount"></span></h3>
-            <h3>Guesses Left: <span id="remainingGuesses"></span></h3>
-            <h3>Your Gueses So Far: <span id="soFarGuess"></span></h3>
-        </div>
-
+        <header>
+            <h1 class="titleId">Psychic Game</h1>
+        </header>
+        <section>
+            <div class="row">
+                <h3>Guess what letter I'm thinking of: </h3>
+            </div>
+            <div>
+                <h3 class="row">Wins: <span id="winsCount"></span></h3>
+                <h3 class="row">Losses: <span id="lossesCount"></span></h3>
+                <h3 class="row">Guesses Left: <span id="remainingGuesses"></span></h3>
+                <h3 class="row">Your Gueses So Far: <span id="soFarGuess"></span></h3>
+            </div>
+        </section>
         <script src="assets/javascript/game.js"></script>
     </div>
 </body>
 
-</html> 
-
-
-<!-- document.onkeyup = function (event) {
-    
-    for (i=0; i>10;)    {
-        userChoice = event.key;
-        letters=pull.letter[i--];
-    } -->
-    
+</html>
 
 
 <!-- Computer guesses a letter out of the 27 and stores it somewhere-->
